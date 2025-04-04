@@ -1,7 +1,7 @@
 from pdf2image import convert_from_path
 
-input_pdf = "deck-1.pdf"
-output_image = "output_page_1.jpg"
+input_pdf = "input.pdf"
+output_image = "output.jpg"
 
 def pdf_to_jpg(input_pdf, output_image):
     try:
